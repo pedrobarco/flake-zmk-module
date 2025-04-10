@@ -135,5 +135,9 @@
                 &trans  &trans  &trans  &trans          &none  &none  &trans      &trans        &trans        &trans
             >;
         };
+
+        extra {
+            status = "reserved";
+        };
     };
 };
