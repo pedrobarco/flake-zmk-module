@@ -9,41 +9,49 @@
         CM_LCTRL {
             bindings = <&kt LEFT_CONTROL>;
             key-positions = <28 27>;
+            layers = <0>;
         };
 
         CM_LSHIFT {
             bindings = <&kt LEFT_SHIFT>;
             key-positions = <27 26>;
+            layers = <0>;
         };
 
         CM_LALT {
             bindings = <&kt LEFT_ALT>;
             key-positions = <26 25>;
+            layers = <0>;
         };
 
         CM_LGUI {
             bindings = <&kt LEFT_GUI>;
             key-positions = <28 26>;
+            layers = <0>;
         };
 
         CM_RCTRL {
             bindings = <&kt RIGHT_CONTROL>;
             key-positions = <31 32>;
+            layers = <0>;
         };
 
         CM_RSHIFT {
             bindings = <&kt RIGHT_SHIFT>;
             key-positions = <32 33>;
+            layers = <0>;
         };
 
         CM_RALT {
             bindings = <&kt RIGHT_ALT>;
             key-positions = <33 34>;
+            layers = <0>;
         };
 
         CM_RGUI {
             bindings = <&kt RIGHT_GUI>;
             key-positions = <31 33>;
+            layers = <0>;
         };
     };
 
@@ -156,19 +164,19 @@
 
         fn {
             bindings = <
-&none      &none            &none        &none     &none       &none          &none      &none          &none         &none                 &none                  &none
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&none      &kp F1           &kp F2       &kp F3    &kp F4      &kp F5         &kp F6     &kp MINUS      &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-&none      &kp F7           &kp F8       &kp F9    &kp F10     &kp F11        &kp F12    &none          &none         &none                 &none                  &none
-           &trans           &trans       &trans    &trans      &trans         &trans     &trans         &trans        &trans                &trans
+&none      &none            &none        &none     &none       &none          &none      &none           &none         &none                 &none                  &none
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&none      &kp F1           &kp F2       &kp F3    &kp F4      &kp F5         &kp F6     &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+&none      &kp F7           &kp F8       &kp F9    &kp F10     &kp F11        &kp F12    &none           &none         &none                 &none                  &none
+           &trans           &trans       &trans    &trans      &trans         &trans     &trans          &trans        &trans                &trans
             >;
         };
 
         extra {
             bindings = <
 &none   &none           &none             &none       &none   &none             &none         &none         &none         &none       &none            &none
-&trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &none   &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &kp PRINTSCREEN  &kt DELETE
-&none   &none           &none             &none       &none   &none             &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT   &none            &none
+&trans  &none           &none             &none       &none   &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &kp PRINTSCREEN  &kt DELETE
+&none   &kt C_PREVIOUS  &kt C_PLAY_PAUSE  &kt C_NEXT  &none   &none             &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT   &none            &none
 &none   &none           &none             &none       &none   &studio_unlock    &none         &none         &none         &none       &none            &none
         &trans          &trans            &trans      &trans  &trans            &trans        &trans        &trans        &trans      &trans
             >;
