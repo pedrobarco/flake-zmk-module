@@ -9,41 +9,49 @@
         CM_LCTRL {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <28 27>;
+            timeout-ms = <50>;
         };
 
         CM_LSHIFT {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <27 26>;
+            timeout-ms = <50>;
         };
 
         CM_LALT {
             bindings = <&kp LEFT_ALT>;
             key-positions = <26 25>;
+            timeout-ms = <50>;
         };
 
         CM_LGUI {
             bindings = <&kp LEFT_GUI>;
             key-positions = <28 26>;
+            timeout-ms = <50>;
         };
 
         CM_RCTRL {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <31 32>;
+            timeout-ms = <50>;
         };
 
         CM_RSHIFT {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <32 33>;
+            timeout-ms = <50>;
         };
 
         CM_RALT {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <33 34>;
+            timeout-ms = <50>;
         };
 
         CM_RGUI {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <31 33>;
+            timeout-ms = <50>;
         };
     };
 
